@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student admission</title>
+
+</head>
+<body>
+    <header>
+        <h1>Student Admission Form</h1>
+        <p>Fill out the form below to apply for admission.</p>
+    </header>
+    <hr>
+    <main>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" ><br><br>
+        <label for="father">Father's Name:</label>
+        <input type="text" id="father" name="father"><br><br>
+        <label for="mother">Mother's Name:</label>
+        <input type="text" id="mother" name="mother"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" ><br><br>
+        <label for ="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for ="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+        <hr>
+        <p>Gender</p>
+        <label for="male">
+            <input type="radio" id="male" name="gender" value="male">male
+        </label>
+        <label for="female">
+            <input type="radio" id="female" name="gender" value="female">Female
+        </label>
+        <label for ="other">
+            <input type ="radio" id ="other " name="gender" value ="other">other
+        </label>
+        <hr>
+        <label for="course">Course:</label>
+        <select name="course" id="course">
+            <option value="cs">Computer Science</option>
+            <option value="mba">MBA</option>
+            <option value="mca">MCA</option>
+            <option value="bca">BCA</option>
+        </select>
+            <hr>
+            <p>Hobbies:</p>
+            <label for="Reading">
+                <input type ="checkbox" id="Reading"name="hobbies" value ="Reading">reading</label>
+                <label for="Travelling">
+                <input type ="checkbox" id="Travelling" name="Hobbies" value="Travelling">Traveling</input></label>
+                <label for="sports games"></label>
+                <input type="checkbox" id ="sports games" name="Hobbies" value="sports games">Sports games</input></label>
+        <br><br>
+        <hr>
+        <p>student full address:</p>
+        <textarea name="address" id="address" cols="40" rows="5"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </main>
+    <footer>
+        <p> thankyou for vist</p>
+        <p> Email : bharatnetsquare@gmail.com</p>
+    </footer>
+    
+</body>
+</html>
